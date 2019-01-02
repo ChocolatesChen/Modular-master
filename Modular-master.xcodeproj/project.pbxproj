@@ -32,6 +32,7 @@
 		529DFD9121DC924A00D5AE78 /* UILabel+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529DFD8F21DC924A00D5AE78 /* UILabel+SnapKit.swift */; };
 		529DFD9321DC92C500D5AE78 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529DFD9221DC92C500D5AE78 /* UIFont+Additions.swift */; };
 		529DFD9521DC939C00D5AE78 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529DFD9421DC939C00D5AE78 /* UIView+Extension.swift */; };
+		529DFD9A21DC9A8700D5AE78 /* Modular-master.gif in Resources */ = {isa = PBXBuildFile; fileRef = 529DFD9921DC9A8700D5AE78 /* Modular-master.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		529DFD8F21DC924A00D5AE78 /* UILabel+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+SnapKit.swift"; sourceTree = "<group>"; };
 		529DFD9221DC92C500D5AE78 /* UIFont+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Additions.swift"; sourceTree = "<group>"; };
 		529DFD9421DC939C00D5AE78 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		529DFD9921DC9A8700D5AE78 /* Modular-master.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Modular-master.gif"; sourceTree = "<group>"; };
 		6A7A97D92856A30D8F0D3DA5 /* Pods-Modular-master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modular-master.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Modular-master/Pods-Modular-master.debug.xcconfig"; sourceTree = "<group>"; };
 		7B3537DEA27D7DCC1B1404CD /* Pods-Modular-master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modular-master.release.xcconfig"; path = "Pods/Target Support Files/Pods-Modular-master/Pods-Modular-master.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,6 +155,7 @@
 		5234478A21D4AEE60095CD07 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				529DFD9921DC9A8700D5AE78 /* Modular-master.gif */,
 				5234477D21D4A8B00095CD07 /* LaunchScreen.storyboard */,
 				5234477421D4A8B00095CD07 /* AppDelegate.swift */,
 				5234477821D4A8B00095CD07 /* Main.storyboard */,
@@ -312,6 +315,7 @@
 				523447A321D4BA540095CD07 /* DFUnitModularCell.xib in Resources */,
 				5234477F21D4A8B00095CD07 /* LaunchScreen.storyboard in Resources */,
 				5234477C21D4A8B00095CD07 /* Assets.xcassets in Resources */,
+				529DFD9A21DC9A8700D5AE78 /* Modular-master.gif in Resources */,
 				5234477A21D4A8B00095CD07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +534,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Modular-master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -537,7 +542,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Chocolate.Modular-master";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -548,6 +553,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Modular-master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -555,7 +561,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Chocolate.Modular-master";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
